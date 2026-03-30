@@ -10,10 +10,11 @@ export default function About() {
         </h3>
 
         <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
-          {/* Profile photo placeholder */}
-          <div className="w-48 h-48 md:w-full md:h-64 rounded-2xl bg-[var(--color-bg-card)] border border-[var(--color-border)] flex items-center justify-center mx-auto md:mx-0">
-            <span className="text-[var(--color-text-muted)] text-sm">Your Photo</span>
-          </div>
+          <img
+            src="/personal-website/profile.png"
+            alt="Atharv Jayprakash"
+            className="w-48 h-48 md:w-full md:h-64 rounded-2xl object-cover object-top border border-[var(--color-border)] mx-auto md:mx-0"
+          />
 
           <div className="space-y-4 text-[var(--color-text-muted)] leading-relaxed">
             <p>
